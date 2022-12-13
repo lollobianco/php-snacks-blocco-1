@@ -12,12 +12,7 @@
 
    }
 
-   for($i = 0; $i < count($numbersArray); $i++){
-
-      echo 'Numero ' . ($i + 1) . ': ' . $numbersArray[$i] . '<br/>';
-
-   }
-   
+   var_dump($numbersArray)
 
 ?>
 
